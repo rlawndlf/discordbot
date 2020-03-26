@@ -32,5 +32,5 @@ async def on_message(message):
     if message.content.startswith("!도움말"):
         await message.channel.send("!를 쓰고 권경운.김주일.출석.김도완.안녕.이경민.권혁무 등등을 쓰면된다")
 
- access_token = os.environ［"BOT_TOKEN"］  
+ access_token = os.environ("BOT_TOKEN")
  client.run("access_token")
