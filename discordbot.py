@@ -31,19 +31,19 @@ async def on_message(message):
         await message.channel.send("몰라요")
     if message.content.startswith("!도움말"):
         await message.channel.send("!를 치고 이름이나 출석,안녕을 입력해보세요")
-     if message.content.startswith("!권순형"):
+    if message.content.startswith("!권순형"):
         await message.channel.send("모른다고")
-         if message.content.startswith("!박재윤"):
+    if message.content.startswith("!박재윤"):
         await message.channel.send("진충")
-      if message.content.startswith("!박재연"):
+    if message.content.startswith("!박재연"):
         await message.channel.send("계정빌려주는애")
-      if message.content.startswith("!종료"):
+    if message.content.startswith("!종료"):
         await message.channel.send("안녕히가세요")
-      if message.content.startswith("!설명충"):
+    if message.content.startswith("!설명충"):
         await message.channel.send("저입니다만?")
-       if message.content.startswith("!야"):
+    if message.content.startswith("!야"):
         await message.channel.send("뭐")
-       if message.content.startswith("!황현수"):
+    if message.content.startswith("!황현수"):
         await message.channel.send("노틸.")
         
 
