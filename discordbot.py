@@ -32,7 +32,5 @@ async def on_message(message):
     if message.content.startswith("!도움말"):
         await message.channel.send("!를 치고 이름이나 출석,안녕을 입력해보세요")
 
-        
-        access_token = os.environ["BOT_TOKEN"]
-        client.run(access_token)
-
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
