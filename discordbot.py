@@ -31,8 +31,6 @@ async def on_message(message):
         await message.channel.send("몰라요")
     if message.content.startswith("!도움말"):
         await message.channel.send("!를 치고 이름이나 출석,안녕을 입력해보세요")
-     if message.content.startswith("!황현수"):
-        await message.channel.send("노틸.티모충")
      if message.content.startswith("!권순형"):
         await message.channel.send("모른다고")
          if message.content.startswith("!박재윤"):
@@ -45,8 +43,9 @@ async def on_message(message):
         await message.channel.send("저입니다만?")
        if message.content.startswith("!야"):
         await message.channel.send("뭐")
-       if message.content.startswith("!뒤져"):
-        await message.channel.send("뭐래 너나뒤져")
+       if message.content.startswith("!황현수"):
+        await message.channel.send("노틸.")
+        
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
