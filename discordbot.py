@@ -41,7 +41,7 @@ async def on_message(message):
         await message.channel.send("안녕히가세요")
     if message.content.startswith("!설명충"):
         await message.channel.send("저입니다만?")
-    if message.content.startswith("!야"):
+    if message.content.startswith("야"):
         await message.channel.send("뭐")
     if message.content.startswith("!황현수"):
         await message.channel.send("노틸.티모충")
