@@ -37,7 +37,7 @@ async def on_message(message):
         await message.channel.send("진충")
     if message.content.startswith("!박재연"):
         await message.channel.send("계정빌려주는애")
-    if message.content.startswith("!종료"):
+    if message.content.startswith("끈다"):
         await message.channel.send("안녕히가세요")
     if message.content.startswith("!설명충"):
         await message.channel.send("저입니다만?")
@@ -45,6 +45,11 @@ async def on_message(message):
         await message.channel.send("뭐")
     if message.content.startswith("!황현수"):
         await message.channel.send("노틸.티모충")
+    if message.content.startswith("끌게"):
+        await message.channel.send("안녕히가세요")
+    if message.content.startswith("잘"):
+        await message.channel.send("안녕히가세요")
+    
         
 
 access_token = os.environ["BOT_TOKEN"]
