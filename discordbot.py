@@ -44,7 +44,7 @@ async def on_message(message):
     if message.content.startswith("!야"):
         await message.channel.send("뭐")
     if message.content.startswith("!황현수"):
-        await message.channel.send("노틸.")
+        await message.channel.send("노틸.티모충")
         
 
 access_token = os.environ["BOT_TOKEN"]
