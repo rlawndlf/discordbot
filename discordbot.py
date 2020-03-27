@@ -31,10 +31,8 @@ async def on_message(message):
         await message.channel.send("몰라요")
     if message.content.startswith("!도움말"):
         await message.channel.send("!를 치고 이름이나 출석,안녕을 입력해보세요")
-    if message.content.startswith("!뮤직봇도움말"):
-        await message.channel.send(";;join=봇참가,;;leave=봇퇴장,;;play 노래제목=노래제목으로유튜브검색후곡설정,;;queue=재생목록,;;nowplaying=재생중인곡,;;skip=노래넘기기,;;pause=일시정지,;;unpause=다시재생")
 
         
         access_token = os.environ["BOT_TOKEN"]
-client.run(access_token)
+        client.run(access_token)
 
