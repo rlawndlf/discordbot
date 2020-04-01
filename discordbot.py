@@ -24,7 +24,7 @@ async def on_message(message):
     if message.content.startswith("!김주일"):
         await message.channel.send("아트록스원챔")
     if message.content.startswith("!김도완"):
-        await message.channel.send("아칼리?카타리나?장인")
+        await message.channel.send("아칼리장인")
     if message.content.startswith("!이경민"):
         await message.channel.send("가렌장인")
     if message.content.startswith("!권혁무"):
